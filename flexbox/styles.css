@@ -1,0 +1,18 @@
+body{
+    min-height: 800px;
+    border:5px solid red;
+    display: flex;
+    gap: 20px;
+}
+
+div.box {
+    height: 200px;
+    width: 200px;
+    background-color: #0071FF;
+    font-size: 40pt;
+    border: 1px solid black;
+}
+
+#box-1 {
+    flex-grow: 1
+}
